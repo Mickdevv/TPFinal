@@ -183,7 +183,7 @@ public class Page_Accueil {
 	
 	@Test
 	public void ContactUsWebMaster(WebDriver driver) throws Exception {
-		System.out.println("ContactUs");
+		System.out.println("ContactUsWebMaster");
 		
 	    // 3 | click | linkText=Contact us | 
 	    driver.findElement(By.linkText("Contact us")).click();
@@ -191,9 +191,8 @@ public class Page_Accueil {
 	    driver.findElement(By.id("id_contact")).click();
 	    // 5 | select | id=id_contact | label=Webmaster
 	    {
-	    	WebElement dropdown = driver.findElement(By.id("id_contact"));
-	    
-	    	dropdown.findElement(By.xpath("//option[. = 'WebMaster']")).click();
+	        WebElement dropdown = driver.findElement(By.id("id_contact"));
+	        dropdown.findElement(By.xpath("//option[. = 'Webmaster']")).click();
 	    }
 	    // 6 | click | css=option:nth-child(3) | 
 	    driver.findElement(By.cssSelector("option:nth-child(3)")).click();
@@ -226,7 +225,7 @@ public class Page_Accueil {
 	
 	@Test
 	public void ContactUsCustomerService(WebDriver driver) throws Exception {
-		System.out.println("ContactUs");
+		System.out.println("ContactUsCustomerService");
 		
 	    // 3 | click | linkText=Contact us | 
 	    driver.findElement(By.linkText("Contact us")).click();
@@ -234,9 +233,8 @@ public class Page_Accueil {
 	    driver.findElement(By.id("id_contact")).click();
 	    // 5 | select | id=id_contact | label=Webmaster
 	    {
-	    	WebElement dropdown = driver.findElement(By.id("id_contact"));
-	    
-	    	dropdown.findElement(By.xpath("//option[. = 'Customer Service']")).click();
+	        WebElement dropdown = driver.findElement(By.id("id_contact"));
+	        dropdown.findElement(By.xpath("//option[. = 'Customer service']")).click();
 	    }
 	    // 6 | click | css=option:nth-child(3) | 
 	    driver.findElement(By.cssSelector("option:nth-child(3)")).click();
@@ -245,7 +243,6 @@ public class Page_Accueil {
 	    	// 7 | verifyText | id=desc_contact1 | If a technical problem occurs on this website
 	    	assertEquals(driver.findElement(By.id("desc_contact1")).getText(), "For any question about a product, an order");
 	    }
-
 
 	    // 8 | click | id=email | 
 	    driver.findElement(By.id("email")).click();

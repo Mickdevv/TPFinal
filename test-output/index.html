@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\micha\AppData\Local\Temp\testng-eclipse--826950742\testng-customsuite.xml</span>
+                    <span>C:\Users\micha\AppData\Local\Temp\testng-eclipse-478935689\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -130,17 +130,15 @@
                   <a name="CommandesAvecCreationCompte">
                   </a> <!-- CommandesAvecCreationCompte -->
                   <span class="method-name">CommandesAvecCreationCompte</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.linkText: Contact us
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
-System info: host: &apos;DESKTOP-0F83FCE&apos;, ip: &apos;172.19.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at Pages_Objets.Page_Accueil.ContactUsWebMaster(Page_Accueil.java:189)
-	at Tests.ContactUs.contactUs(ContactUs.java:12)
+                  <div class="stack-trace">java.lang.AssertionError: expected [For any question about a product, an order] but found [If a technical problem occurs on this website]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at Pages_Objets.Page_Accueil.ContactUsCustomerService(Page_Accueil.java:244)
+	at Tests.ContactUs.contactUs(ContactUs.java:15)
 	at Campagnes.CommandesAvecChrome.CommandesAvecCreationCompte(CommandesAvecChrome.java:62)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -179,7 +177,7 @@ Driver info: driver.version: RemoteWebDriver
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\micha\AppData\Local\Temp\testng-eclipse--826950742\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\micha\AppData\Local\Temp\testng-eclipse-478935689\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -232,12 +230,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CommandesAvecCreationCompte')
 data.setCell(0, 2, 'Campagnes.CommandesAvecChrome')
-data.setCell(0, 3, 7839);
+data.setCell(0, 3, 3638);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -272,11 +270,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">CommandesAvecCreationCompte</span>
-                <span class="method-start">2093 ms</span>
+                <span class="method-start">6745 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9936 ms</span>
+                <span class="method-start">10386 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

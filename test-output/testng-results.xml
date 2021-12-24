@@ -2,36 +2,30 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-24T11:49:35 CET" name="Default suite" finished-at="2021-12-24T11:49:46 CET" duration-ms="10496">
+  <suite started-at="2021-12-24T13:42:09 CET" name="Default suite" finished-at="2021-12-24T13:42:20 CET" duration-ms="10993">
     <groups>
     </groups>
-    <test started-at="2021-12-24T11:49:35 CET" name="Default test" finished-at="2021-12-24T11:49:46 CET" duration-ms="10496">
+    <test started-at="2021-12-24T13:42:09 CET" name="Default test" finished-at="2021-12-24T13:42:20 CET" duration-ms="10993">
       <class name="Campagnes.CommandesAvecChrome">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Campagnes.CommandesAvecChrome@dd8ba08]" started-at="2021-12-24T11:49:35 CET" name="setUp" finished-at="2021-12-24T11:49:37 CET" duration-ms="2081" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Campagnes.CommandesAvecChrome@dd8ba08]" started-at="2021-12-24T13:42:09 CET" name="setUp" finished-at="2021-12-24T13:42:16 CET" duration-ms="6738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="CommandesAvecCreationCompte()[pri:0, instance:Campagnes.CommandesAvecChrome@dd8ba08]" started-at="2021-12-24T11:49:37 CET" name="CommandesAvecCreationCompte" finished-at="2021-12-24T11:49:45 CET" duration-ms="7839" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="CommandesAvecCreationCompte()[pri:0, instance:Campagnes.CommandesAvecChrome@dd8ba08]" started-at="2021-12-24T13:42:16 CET" name="CommandesAvecCreationCompte" finished-at="2021-12-24T13:42:20 CET" duration-ms="3638" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unable to find element with locator By.linkText: Contact us
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-0F83FCE', ip: '172.19.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: driver.version: RemoteWebDriver]]>
+              <![CDATA[expected [For any question about a product, an order] but found [If a technical problem occurs on this website]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.linkText: Contact us
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-0F83FCE', ip: '172.19.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-at Pages_Objets.Page_Accueil.ContactUsWebMaster(Page_Accueil.java:189)
-at Tests.ContactUs.contactUs(ContactUs.java:12)
+              <![CDATA[java.lang.AssertionError: expected [For any question about a product, an order] but found [If a technical problem occurs on this website]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Pages_Objets.Page_Accueil.ContactUsCustomerService(Page_Accueil.java:244)
+at Tests.ContactUs.contactUs(ContactUs.java:15)
 at Campagnes.CommandesAvecChrome.CommandesAvecCreationCompte(CommandesAvecChrome.java:62)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -63,11 +57,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CommandesAvecCreationCompte -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Campagnes.CommandesAvecChrome@dd8ba08]" started-at="2021-12-24T11:49:45 CET" name="tearDown" finished-at="2021-12-24T11:49:46 CET" duration-ms="548" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Campagnes.CommandesAvecChrome@dd8ba08]" started-at="2021-12-24T13:42:20 CET" name="tearDown" finished-at="2021-12-24T13:42:20 CET" duration-ms="594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

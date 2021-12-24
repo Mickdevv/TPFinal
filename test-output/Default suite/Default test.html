@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Dec 24 11:49:35 CET 2021</td>
+<td>Started on:</td><td>Fri Dec 24 13:42:09 CET 2021</td>
 </tr>
-<tr><td>Total time:</td><td>10 seconds (10496 ms)</td>
+<tr><td>Total time:</td><td>10 seconds (10993 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,17 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Campagnes.CommandesAvecChrome.CommandesAvecCreationCompte()'><b>CommandesAvecCreationCompte</b><br>Test class: Campagnes.CommandesAvecChrome</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.linkText: Contact us
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
-System info: host: &apos;DESKTOP-0F83FCE&apos;, ip: &apos;172.19.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at Pages_Objets.Page_Accueil.ContactUsWebMaster(Page_Accueil.java:189)
-	at Tests.ContactUs.contactUs(ContactUs.java:12)
+<td><div><pre>java.lang.AssertionError: expected [For any question about a product, an order] but found [If a technical problem occurs on this website]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at Pages_Objets.Page_Accueil.ContactUsCustomerService(Page_Accueil.java:244)
+	at Tests.ContactUs.contactUs(ContactUs.java:15)
 	at Campagnes.CommandesAvecChrome.CommandesAvecCreationCompte(CommandesAvecChrome.java:62)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -116,18 +114,16 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1838250251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1838250251'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.linkText: Contact us
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
-System info: host: &apos;DESKTOP-0F83FCE&apos;, ip: &apos;172.19.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at Pages_Objets.Page_Accueil.ContactUsWebMaster(Page_Accueil.java:189)
-	at Tests.ContactUs.contactUs(ContactUs.java:12)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1676428380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1676428380'><pre>java.lang.AssertionError: expected [For any question about a product, an order] but found [If a technical problem occurs on this website]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at Pages_Objets.Page_Accueil.ContactUsCustomerService(Page_Accueil.java:244)
+	at Tests.ContactUs.contactUs(ContactUs.java:15)
 	at Campagnes.CommandesAvecChrome.CommandesAvecCreationCompte(CommandesAvecChrome.java:62)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -158,7 +154,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>7</td>
+<td>3</td>
 <td>Campagnes.CommandesAvecChrome@dd8ba08</td></tr>
 </table><p>
 </body>
