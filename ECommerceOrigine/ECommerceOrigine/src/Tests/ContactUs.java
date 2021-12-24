@@ -13,5 +13,7 @@ public class ContactUs {//Call ContactWebMaster and ContactCustomerService
 		
 		//System.out.println("Contact us, Customer service");
 		new Page_Accueil().ContactUsCustomerService(driver);
+		
+		System.out.println("Contact us finished");
 	}
 }

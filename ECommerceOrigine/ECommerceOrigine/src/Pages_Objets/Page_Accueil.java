@@ -196,13 +196,14 @@ public class Page_Accueil {
 	    }
 	    // 6 | click | css=option:nth-child(3) | 
 	    driver.findElement(By.cssSelector("option:nth-child(3)")).click();
-	    
-	    {
+
+	    try {
 	    	// 7 | verifyText | id=desc_contact1 | If a technical problem occurs on this website
 	    	assertEquals(driver.findElement(By.id("desc_contact1")).getText(), "If a technical problem occurs on this website");
+	    } catch (Exception e) {
+	    	// TODO Auto-generated catch block
+	    	e.printStackTrace();
 	    }
-
-
 
 	    // 8 | click | id=email | 
 	    driver.findElement(By.id("email")).click();
@@ -222,7 +223,7 @@ public class Page_Accueil {
 	    assertEquals(driver.findElement(By.cssSelector(".alert")).getText(), "Your message has been successfully sent to our team.");
 		
 	}
-	
+	//assertEquals(driver.findElement(By.id("desc_contact1")).getText(), "For any question about a product, an order");
 	@Test
 	public void ContactUsCustomerService(WebDriver driver) throws Exception {
 		System.out.println("ContactUsCustomerService");
@@ -237,12 +238,19 @@ public class Page_Accueil {
 	        dropdown.findElement(By.xpath("//option[. = 'Customer service']")).click();
 	    }
 	    // 6 | click | css=option:nth-child(3) | 
-	    driver.findElement(By.cssSelector("option:nth-child(3)")).click();
-	    
-	    {
+	    driver.findElement(By.cssSelector("option:nth-child(2)")).click();
+
+
+	    try {
 	    	// 7 | verifyText | id=desc_contact1 | If a technical problem occurs on this website
-	    	assertEquals(driver.findElement(By.id("desc_contact1")).getText(), "For any question about a product, an order");
+	    	assertEquals(driver.findElement(By.id("desc_contact2")).getText(), "For any question about a product, an order");
+	    } catch (Exception e) {
+	    	// TODO Auto-generated catch block
+	    	e.printStackTrace();
 	    }
+
+
+
 
 	    // 8 | click | id=email | 
 	    driver.findElement(By.id("email")).click();
