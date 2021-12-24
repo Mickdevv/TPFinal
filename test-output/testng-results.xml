@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-24T14:38:53 CET" name="MySuite" finished-at="2021-12-24T14:41:41 CET" duration-ms="167965">
+  <suite started-at="2021-12-24T15:03:22 CET" name="MySuite" finished-at="2021-12-24T15:06:51 CET" duration-ms="208788">
     <groups>
     </groups>
-    <test started-at="2021-12-24T14:38:53 CET" name="CommandeAvecChrome" finished-at="2021-12-24T14:41:27 CET" duration-ms="153810">
+    <test started-at="2021-12-24T15:03:22 CET" name="CommandeAvecChrome" finished-at="2021-12-24T15:06:35 CET" duration-ms="192936">
       <class name="Campagnes.Commandes">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Campagnes.Commandes@5158b42f]" started-at="2021-12-24T14:38:53 CET" name="setUp" finished-at="2021-12-24T14:38:58 CET" duration-ms="4535" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Campagnes.Commandes@5158b42f]" started-at="2021-12-24T15:03:22 CET" name="setUp" finished-at="2021-12-24T15:03:28 CET" duration-ms="5873" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="CommandesAvecCreationCompte()[pri:0, instance:Campagnes.Commandes@5158b42f]" started-at="2021-12-24T14:38:58 CET" name="CommandesAvecCreationCompte" finished-at="2021-12-24T14:41:27 CET" duration-ms="148629" status="PASS">
+        <test-method signature="CommandesAvecCreationCompte()[pri:0, instance:Campagnes.Commandes@5158b42f]" started-at="2021-12-24T15:03:28 CET" name="CommandesAvecCreationCompte" finished-at="2021-12-24T15:06:34 CET" duration-ms="186291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CommandesAvecCreationCompte -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Campagnes.Commandes@5158b42f]" started-at="2021-12-24T14:41:27 CET" name="tearDown" finished-at="2021-12-24T14:41:27 CET" duration-ms="623" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Campagnes.Commandes@5158b42f]" started-at="2021-12-24T15:06:34 CET" name="tearDown" finished-at="2021-12-24T15:06:35 CET" duration-ms="745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Campagnes.Commandes -->
     </test> <!-- CommandeAvecChrome -->
-    <test started-at="2021-12-24T14:38:53 CET" name="CommandeAvecFirefox" finished-at="2021-12-24T14:41:41 CET" duration-ms="167965">
+    <test started-at="2021-12-24T15:03:22 CET" name="CommandeAvecFirefox" finished-at="2021-12-24T15:06:51 CET" duration-ms="208788">
       <class name="Campagnes.Commandes">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Campagnes.Commandes@4c371370]" started-at="2021-12-24T14:38:53 CET" name="setUp" finished-at="2021-12-24T14:39:00 CET" duration-ms="6236" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Campagnes.Commandes@4c371370]" started-at="2021-12-24T15:03:22 CET" name="setUp" finished-at="2021-12-24T15:03:28 CET" duration-ms="6357" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="CommandesAvecCreationCompte()[pri:0, instance:Campagnes.Commandes@4c371370]" started-at="2021-12-24T14:39:00 CET" name="CommandesAvecCreationCompte" finished-at="2021-12-24T14:41:41 CET" duration-ms="161217" status="PASS">
+        <test-method signature="CommandesAvecCreationCompte()[pri:0, instance:Campagnes.Commandes@4c371370]" started-at="2021-12-24T15:03:28 CET" name="CommandesAvecCreationCompte" finished-at="2021-12-24T15:06:50 CET" duration-ms="201944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CommandesAvecCreationCompte -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Campagnes.Commandes@4c371370]" started-at="2021-12-24T14:41:41 CET" name="tearDown" finished-at="2021-12-24T14:41:41 CET" duration-ms="498" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Campagnes.Commandes@4c371370]" started-at="2021-12-24T15:06:50 CET" name="tearDown" finished-at="2021-12-24T15:06:51 CET" duration-ms="469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
