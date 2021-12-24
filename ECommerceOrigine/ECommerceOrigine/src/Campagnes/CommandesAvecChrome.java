@@ -59,10 +59,10 @@ public class CommandesAvecChrome {
 	public void CommandesAvecCreationCompte() throws Exception {
 		
 		//System.out.println("Verification du Contact us");
-		new ContactUs().contactUs(driver);
+		//new ContactUs().contactUs(driver);
 		
 		//System.out.println("Verification du footer");
-		new Footer().VerifierFooter(driver);
+		//new Footer().VerifierFooter(driver);
 		
 		
 		// Déclaration pour récupérer les valeurs de mail et Pwd créé

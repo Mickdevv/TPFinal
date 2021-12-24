@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="MySuite">
+
+  <test name="CommandeAvecChrome">
+	<parameter name = "BrowserName" value = "chrome" />
+    <classes>
+      <class name="Campagnes.Commandes"/>
+    </classes>
+  </test> <!-- MyTest -->
+
+  <test name="CommandeAvecFirefox">
+    <parameter name = "BrowserName" value = "firefox" />
+	<classes>
+      <class name="Campagnes.Commandes"/>
+    </classes>
+  </test> <!-- MyTest -->
+</suite> <!-- MySuite -->
