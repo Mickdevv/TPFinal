@@ -1,0 +1,26 @@
+Type de ticket, Résumé, Epic link
+Feature, F01 - Authentication, E01 - Authentication
+Feature, F02 - Order history and details, E02 - My account
+Feature, F03 - My Credit slips, E02 - My account
+Feature, F04 - My adresses, E02 - My account
+Feature, F05 - My personal information, E02 - My account
+Feature, F06 - My wishlists, E02 - My account
+Feature, F07 - Cart, E03 - Shopping cart
+Feature, F08 - Shopping cart Summary, E03 - Shopping cart
+Feature, F09 - Adresses, E03 - Shopping cart
+Feature, F10 - Shipping, E03 - Shopping cart
+Feature, F11 - Payment, E03 - Shopping cart
+Feature, F12 - Categories, E04 - Catalog
+Feature, F13 - Filtre, E04 - Catalog
+Feature, F14 - Sort by, E04 - Catalog
+Feature, F15 - Search, E04 - Catalog
+Feature, F16 - View, E04 - Catalog
+Feature, F17 - Product information, E04 - Catalog
+Feature, F18 - Delivery, E05 - Information
+Feature, F19 - Legal Notice, E05 - Information
+Feature, F20 - Terms and conditions of use, E05 - Information
+Feature, F21 - About us, E05 - Information
+Feature, F22 - Secure payment, E05 - Information
+Feature, F23 - Our stores, E05 - Information
+Feature, F24 - Portabilité, E06 - Architecture
+Feature, F25 - Interopérabilité, E06 - Architecture

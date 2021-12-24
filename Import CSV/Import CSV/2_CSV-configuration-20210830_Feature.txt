@@ -1,0 +1,37 @@
+{
+  "config.version" : "2.0",
+  "config.project.from.csv" : "false",
+  "config.encoding" : "UTF-8",
+  "config.file.id" : "b1d67079-248f-41a0-8791-a3cbd312abe1",
+  "config.email.suffix" : "@",
+  "config.file.name" : "2_JIRA-XRAY-Projet MyStore-Import-Feature.txt",
+  "config.field.mappings" : {
+    "Type de ticket" : {
+      "jira.field" : "issuetype",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Résumé" : {
+      "jira.field" : "summary",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Epic link" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10014"
+    }
+  },
+  "config.csv.file.id" : null,
+  "config.value.mappings" : { },
+  "config.delimiter" : ",",
+  "config.project" : {
+    "project.type" : null,
+    "project.key" : "MYS",
+    "project.description" : null,
+    "project.url" : null,
+    "project.name" : "MyStore",
+    "project.lead" : null
+  },
+  "config.date.format" : "dd/MMM/yy"
+}

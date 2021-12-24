@@ -1,0 +1,47 @@
+Type de ticket, Résumé, Description, Versions corrigées, Priorité, Epic link, Sprint, Story points, Status
+Story, E01-F01-US 001 - Create an account, En tant qu'utilisateur Je souhaite créer un compte Afin de pouvoir passer et suivre mes commandes, V1.0, Highest, E01 - Authentication, 1, 3, Terminé(e)
+Story, E01-F01-US 002 - Sign in, En tant qu'utilisateur ayant un compte Je souhaite m'authentifier sur le site Afin de pouvoir passer et suivre mes commandes, V1.0, High, E01 - Authentication, 2, 2, Terminé(e)
+Story, E01-F01-US 003 - Sign out, En tant qu'utilisateur authentifié Je souhaite me déconnecter du site Afin que personne ne puisse accéder à mes données, V1.0, Low, E01 - Authentication, 4, 1, Terminé(e)
+Story, E02-F02-US 004 - Order history, En tant qu'utilisateur ayant confirmé des commandes Je souhaite avoir un récapitulatif de toutes mes commandes passées Afin de consulter l'historique de mes commandes et voir le détail de celles-ci, V1.0, High, E02 - My account, 2, 5, Terminé(e)
+Story, E02-F02-US 005 - Order details,  , V1.0, Medium, E02 - My account, 3, 3, Terminé(e)
+Story, E02-F02-US 006 - Send a message,  , V1.0, Medium, E02 - My account, 3, 2, Terminé(e)
+Story, E02-F03-US 007 - My Credit slips,  , V1.0, High, E02 - My account, 2, 2, Terminé(e)
+Story, E02-F04-US 008 - Add a new adress,  , V1.0, Medium, E02 - My account, 3, 2, Terminé(e)
+Story, E02-F04-US 009 - Update an adress,  , V1.0, Medium, E02 - My account, 3, 2, Terminé(e)
+Story, E02-F04-US 010 - Delete an adress,  , V1.0, Medium, E02 - My account, 3, 1, Terminé(e)
+Story, E02-F05-US 011 - My personal information, En tant qu'utilisateur n'ayant pas encore de compte Je souhaite saisir mes informations personnelles Afin de m'enregistrer, V1.0, Highest, E02 - My account, 1, 5, Terminé(e)
+Story, E02-F06-US 012 - Add a wishlist,  , V1.0, Medium, E02 - My account, 3, 3, Terminé(e)
+Story, E02-F06-US 013 - Update a wishlist,  , V1.0, Medium, E02 - My account, 3, 3, Terminé(e)
+Story, E02-F06-US 014 - Delete a wishlist,  , V1.0, Medium	, E02 - My account, 3, 1, Terminé(e)
+Story, E02-F06-US 015 - Send a wishlist,  , V1.0, Medium, E02 - My account, 3, 3, Terminé(e)
+Story, E03-F07-US 016 - Synthèse du panier (Cart), En tant qu'utilisateur Je souhaite avoir une synthèse de mon Panier Afin de visualiser et mettre à jour mon panier ou procéder au check-out, V1.0, High, E03 - Shopping cart, 2, 5, Terminé(e)
+Story, E03-F08-US 017 - Shopping cart Summary, En tant qu'utilisateur Je souhaite visualiser le contenu de mon panier Afin de prendre connaissance du contenu de mon panier ou le modifier, V1.0, Highest, E03 - Shopping cart, 1, 5, Terminé(e)
+Story, E03-F08-US 018 - Supprimer un produit du panier,  , V1.0, Highest, E03 - Shopping cart, 1, 3, Terminé(e)
+Story, E03-F09-US 019 - Shopping cart Adress, En tant qu'utilisateur authentifié sur le site Je souhaite choisir une adresse de livraison et apporter des précisions pour la livraison Afin de pouvoir être livré à cette adresse, V1.0, Highest, E03 - Shopping cart, 1, 5, Terminé(e)
+Story, E03-F10-US 020 - Shopping cart Shipping, En tant qu'utilisateur authentifié sur le site Je souhaite choisir le mode de livraison "My carrier Delivery next day" ou "My carrier Delivery Economy 3 days" et exprimer mon agrément pour le choix Afin que ma livraison soit livrée selon mon choix, V1.0, Highest, E03 - Shopping cart, 4, 5, En cours
+Story, E03-F11-US 021 - Payment methods (bank wire - check - visa),  , V1.0, Highest, E03 - Shopping cart, 4, 5, En cours
+Story, E03-F11-US 022 - Order confirmation, En tant qu'utilisateur ayant procédé au paiement de ma commande Je souhaite avoir une confirmation de ma commande Afin de m'assurer que ma commande a été prise en compte, V1.0, Highest, E03 - Shopping cart, 1, 3, Terminé(e)
+Story, E04-F12-US 023 - Sélectionner une catégorie (Exemple : Women), En tant qu'utilisateur Je souhaite rechercher un produit par catégorie Afin de voir la fiche détail du produit, V1.0, High, E04 - Catalog, 2, 5, Terminé(e)
+Story, E04-F12-US 024 - Sélectionner une sous-catégorie (Exemple : Top ou Dresses),  , V1.0, High, E04 - Catalog, 2, 5, Terminé(e)
+Story, E04-F13-US 025 - Sélectionner un ou plusieurs critères de filtre,  , V1.0, Highest, E04 - Catalog, 1, 8, Terminé(e)
+Story, E04-F14-US 026 - Trier l'affichage des articles (par prix - par nom…),  , V1.0, Medium, E04 - Catalog, 3, 5, Terminé(e)
+Story, E04-F15-US 027 - Recherche de produits par mot-clé, En tant qu'utilisateur Je souhaite sélectionner des produits à partir d'un mot-clé Afin de consulter tous les produits correspondant à mon mon-clé , V1.0, High, E04 - Catalog, 2, 8, Terminé(e)
+Story, E04-F16-US 028 - Type d'affichage des produits (grid - list),  , V1.0, Medium, E04 - Catalog, 3, 5, Terminé(e)
+Story, E04-F17-US 029 - Quick view,  , V1.0, Medium, E04 - Catalog, 3, 5, Terminé(e)
+Story, E04-F17-US 030 - Product details (via click ou MORE),  , V1.0, High, E04 - Catalog, 2, 5, Terminé(e)
+Story, E04-F17-US 031 - Sélectionner une quantité d'un produit, En tant qu'utilisateur Je souhaite choisir la quantité d'un produit sélectionné Afin de préparer mon choix du produit pour éventuellement l'ajouter au panier, V1.0, Highest, E04 - Catalog, 4, 8, En cours
+Story, E04-F17-US 032 - Sélectionner une taille, En tant qu'utilisateur Je souhaite sélectionner la taille d'un produit sélectionné Afin de préparer mon choix du produit pour éventuellement l'ajouter au panier, V1.0, High, E04 - Catalog, 2, 3, Terminé(e)
+Story, E04-F17-US 033 - Sélectionner une couleur,  , V1.0, Medium, E04 - Catalog, 3, 3, Terminé(e)
+Story, E04-F17-US 034 - Add to cart, En tant qu'utilisateur Je souhaite sélectionner un produit Afin de l'ajouter au panier, V1.0, Highest, E04 - Catalog, 1, 8, Terminé(e)
+Story, E04-F17-US 035 - Add to Wishlist,  , V1.0, Low, E04 - Catalog, 4, 3, Terminé(e)
+Story, E04-F17-US 036 - Add to Compare,  ,  , Low, E04 - Catalog,  , 3, À faire
+Story, E04-F17-US 037 - Product comparison,  , V1.0 , Low, E04 - Catalog, 4, 8, Terminé(e)
+Story, E05-F18-US 038 - Delivery Information,  , V1.0 , Medium, E05 - Information, 3, 2, Terminé(e)
+Story, E05-F19-US 039 - Legal Notice Information,  ,  , Lowest, E05 - Information,  , 1, À faire
+Story, E05-F20-US 040 - Terms and conditions of use Information,  ,  , Lowest, E05 - Information,  , 1, À faire
+Story, E05-F21-US 041 - About us Information,  ,  , Lowest, E05 - Information,  , 1, À faire
+Story, E05-F22-US 042 - Secure payment Information,  ,  , Lowest, E05 - Information,  , 1, À faire
+Story, E05-F23-US 043 - Our stores Information,  ,  , Lowest, E05 - Information,  , 3, À faire
+Story, E06-F24-US 044 - Navigateur Chrome,  , V1.0, Medium, E06 - Architecture, 4, 5, En cours
+Story, E06-F24-US 045 - Navigateur Firefox,  , V1.0, Medium, E06 - Architecture, 4, 5, En cours
+Story, E06-F25-US 046 - Interface avec gestion des stocks,  ,  , High, E06 - Architecture,  , 40, À faire

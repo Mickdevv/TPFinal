@@ -1,0 +1,10 @@
+Type de ticket, Epic name, Résumé
+Epic, E01 - Authentication, Authentication
+Epic, E02 - My account, My account
+Epic, E03 - Shopping cart, Shopping cart
+Epic, E04 - Catalog, Catalog
+Epic, E05 - Information, Information
+Epic, E06 - Architecture, Architecture
+
+
+

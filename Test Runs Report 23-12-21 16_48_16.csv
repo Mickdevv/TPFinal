@@ -1,0 +1,35 @@
+Clé;Résumé;Priorité;Exécution des Tests;Environnements de test;Statut de Lancement de Test
+GKGRP2-82;Test E01-F01-US 001 - Création d'un compte;High;GKGRP2-98;CHROME;PASSED
+GKGRP2-80;Test E04-F17-US 031 - Sélectionner une quantité d'un produit;URGENT;GKGRP2-98;CHROME;FAILED
+GKGRP2-78;"Test E03-F10-US 020 - Shopping cart Shipping - ""My carrier delivery next day""";High;GKGRP2-98;CHROME;PASSED
+GKGRP2-84;Test E03-F11-US 021 - Payment methods bank wire;URGENT;GKGRP2-98;CHROME;PASSED
+GKGRP2-92;Test E01-F01-US 003 - Sign out;Medium;GKGRP2-98;CHROME;FAILED
+GKGRP2-81;Test E01-F01-US 002 - Sign in OK depuis bandeau principal;Very High;GKGRP2-99;CHROME;PASSED
+GKGRP2-88;Test E04-F13-US 025 - Sélectionner un ou plusieurs critères de filtre;High;GKGRP2-99;CHROME;FAILED
+GKGRP2-94;Test E04-F17-US 034 - Add to cart;URGENT;GKGRP2-99;CHROME;PASSED
+GKGRP2-90;"Test E03-F10-US 020 - Shopping cart Shipping - ""My carrier delivery Economy 3 days""";High;GKGRP2-99;CHROME;FAILED
+GKGRP2-87;Test E03-F11-US 021 - Payment methods check;URGENT;GKGRP2-99;CHROME;PASSED
+GKGRP2-92;Test E01-F01-US 003 - Sign out;Medium;GKGRP2-99;CHROME;FAILED
+GKGRP2-81;Test E01-F01-US 002 - Sign in OK depuis bandeau principal;Very High;GKGRP2-100;CHROME;PASSED
+GKGRP2-94;Test E04-F17-US 034 - Add to cart;URGENT;GKGRP2-100;CHROME;PASSED
+GKGRP2-91;Test E03-F10-US 020 - TNP - Shopping cart Shipping;High;GKGRP2-100;CHROME;PASSED
+GKGRP2-78;"Test E03-F10-US 020 - Shopping cart Shipping - ""My carrier delivery next day""";High;GKGRP2-100;CHROME;PASSED
+GKGRP2-89;Test E03-F11-US 021 - Payment methods visa;URGENT;GKGRP2-100;CHROME;FAILED
+GKGRP2-92;Test E01-F01-US 003 - Sign out;Medium;GKGRP2-100;CHROME;TO DO
+GKGRP2-82;Test E01-F01-US 001 - Création d'un compte;High;GKGRP2-106;FIREFOX;PASSED
+GKGRP2-80;Test E04-F17-US 031 - Sélectionner une quantité d'un produit;URGENT;GKGRP2-106;FIREFOX;FAILED
+GKGRP2-78;"Test E03-F10-US 020 - Shopping cart Shipping - ""My carrier delivery next day""";High;GKGRP2-106;FIREFOX;PASSED
+GKGRP2-84;Test E03-F11-US 021 - Payment methods bank wire;URGENT;GKGRP2-106;FIREFOX;PASSED
+GKGRP2-92;Test E01-F01-US 003 - Sign out;Medium;GKGRP2-106;FIREFOX;FAILED
+GKGRP2-81;Test E01-F01-US 002 - Sign in OK depuis bandeau principal;Very High;GKGRP2-108;FIREFOX;PASSED
+GKGRP2-94;Test E04-F17-US 034 - Add to cart;URGENT;GKGRP2-108;FIREFOX;PASSED
+GKGRP2-91;Test E03-F10-US 020 - TNP - Shopping cart Shipping;High;GKGRP2-108;FIREFOX;PASSED
+GKGRP2-78;"Test E03-F10-US 020 - Shopping cart Shipping - ""My carrier delivery next day""";High;GKGRP2-108;FIREFOX;PASSED
+GKGRP2-89;Test E03-F11-US 021 - Payment methods visa;URGENT;GKGRP2-108;FIREFOX;FAILED
+GKGRP2-92;Test E01-F01-US 003 - Sign out;Medium;GKGRP2-108;FIREFOX;TO DO
+GKGRP2-81;Test E01-F01-US 002 - Sign in OK depuis bandeau principal;Very High;GKGRP2-110;FIREFOX;PASSED
+GKGRP2-88;Test E04-F13-US 025 - Sélectionner un ou plusieurs critères de filtre;High;GKGRP2-110;FIREFOX;FAILED
+GKGRP2-94;Test E04-F17-US 034 - Add to cart;URGENT;GKGRP2-110;FIREFOX;PASSED
+GKGRP2-90;"Test E03-F10-US 020 - Shopping cart Shipping - ""My carrier delivery Economy 3 days""";High;GKGRP2-110;FIREFOX;FAILED
+GKGRP2-87;Test E03-F11-US 021 - Payment methods check;URGENT;GKGRP2-110;FIREFOX;PASSED
+GKGRP2-92;Test E01-F01-US 003 - Sign out;Medium;GKGRP2-110;FIREFOX;FAILED

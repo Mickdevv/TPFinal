@@ -1,0 +1,2 @@
+Type de ticket, Résumé, Description, Versions corrigées, Priorité, Epic link, Sprint, Story points, Phase
+Story, E04-F17-US 036 - Add to Compare,  ,  , Lowest, E04 - Catalog,  , 3, New

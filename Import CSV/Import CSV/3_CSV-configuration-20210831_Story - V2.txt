@@ -1,0 +1,75 @@
+{
+  "config.version" : "2.0",
+  "config.project.from.csv" : "false",
+  "config.encoding" : "UTF-8",
+  "config.file.id" : "77656bed-456e-4c0e-a413-66709f6cd152",
+  "config.email.suffix" : "@",
+  "config.file.name" : "3_JIRA-XRAY-Projet MyStore-Import-Story - V2.txt",
+  "config.field.mappings" : {
+    "Status" : {
+      "jira.field" : "status",
+      "userChanged" : "true",
+      "manualMapping" : "true"
+    },
+    "Type de ticket" : {
+      "jira.field" : "issuetype",
+      "userChanged" : "true",
+      "manualMapping" : "false"
+    },
+    "Résumé" : {
+      "jira.field" : "summary",
+      "userChanged" : "true",
+      "manualMapping" : "false"
+    },
+    "Description" : {
+      "jira.field" : "description",
+      "userChanged" : "true",
+      "manualMapping" : "false"
+    },
+    "Story points" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10026"
+    },
+    "Priorité" : {
+      "jira.field" : "priority",
+      "userChanged" : "true",
+      "manualMapping" : "false"
+    },
+    "Sprint" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10020"
+    },
+    "Epic link" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10014"
+    },
+    "Versions corrigées" : {
+      "jira.field" : "fixVersions",
+      "userChanged" : "true",
+      "manualMapping" : "false"
+    }
+  },
+  "config.csv.file.id" : null,
+  "config.value.mappings" : {
+    "Status" : {
+      "À faire" : "10000",
+      "En cours" : "3",
+      "4" : "10000",
+      "5" : "10000",
+      "Terminé(e)" : "10001"
+    }
+  },
+  "config.delimiter" : ",",
+  "config.project" : {
+    "project.type" : null,
+    "project.key" : "MYS",
+    "project.description" : null,
+    "project.url" : null,
+    "project.name" : "MyStore",
+    "project.lead" : null
+  },
+  "config.date.format" : "dd/MM/yy"
+}
